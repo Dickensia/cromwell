@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 
 import unittest
+import json
 from metadata_comparison.lib.argument_regex import *
+from metadata_comparison.lib.operation_ids import *
+from metadata_comparison.extractor import find_operation_ids_in_metadata
 
 class ExtractorTestMethods(unittest.TestCase):
 
